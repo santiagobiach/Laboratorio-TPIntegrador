@@ -1,0 +1,31 @@
+{
+  "version": "2.2.0",
+  "summary": {
+    "title": "Siu Guarani (FIUBA)",
+    "owner": "Santiago Biach",
+    "description": "Sistema de seguimiento de carrera de alumnos y actividades varias relacionadas a la Facultad de Ingenieria (FIUBA)",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Santiago"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Layers",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.2.0",
+        "cells": [],
+        "description": "Vulnerabilidades"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Santiago Biach",
+    "threatTop": 0
+  }
+}
