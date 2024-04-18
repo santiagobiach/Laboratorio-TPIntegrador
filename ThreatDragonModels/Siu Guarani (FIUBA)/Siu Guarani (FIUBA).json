@@ -162,19 +162,6 @@
                   "new": false,
                   "number": 13,
                   "score": ""
-                },
-                {
-                  "id": "6c324988-9538-4b25-9c06-a4e1e59c0cce",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": true,
-                  "number": 16,
-                  "score": ""
                 }
               ]
             }
