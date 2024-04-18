@@ -2,14 +2,23 @@
   "version": "2.2.0",
   "summary": {
     "title": "Siu Guarani (FIUBA)",
-    "owner": "Santiago Biach",
+    "owner": "Grupo 10",
     "description": "Sistema de seguimiento de carrera de alumnos y actividades varias relacionadas a la Facultad de Ingenieria (FIUBA)",
     "id": 0
   },
   "detail": {
     "contributors": [
       {
-        "name": "Santiago"
+        "name": "Santiago Biach"
+      },
+      {
+        "name": "Andrés R. Moyano"
+      },
+      {
+        "name": "Juan Manuel Díaz"
+      },
+      {
+        "name": "Franco Tosoni"
       }
     ],
     "diagrams": [
@@ -1247,7 +1256,7 @@
       }
     ],
     "diagramTop": 1,
-    "reviewer": "Santiago Biach",
+    "reviewer": "-",
     "threatTop": 17
   }
 }
