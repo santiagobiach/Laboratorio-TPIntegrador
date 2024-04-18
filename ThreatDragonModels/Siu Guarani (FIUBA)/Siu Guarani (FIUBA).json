@@ -1114,19 +1114,6 @@
                   "new": false,
                   "number": 15,
                   "score": ""
-                },
-                {
-                  "id": "8abd3c1f-18a3-4880-b413-cfebb31cbc5a",
-                  "title": "Acceso no Autorizado",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Information disclosure",
-                  "description": "Un atacante podría hacer una query directamente a la BD ",
-                  "mitigation": "Autenticar todas las querys entrantes a la BD",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 17,
-                  "score": ""
                 }
               ]
             }
