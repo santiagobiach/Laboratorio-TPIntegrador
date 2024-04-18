@@ -184,13 +184,11 @@
                 "text": "Auth database"
               },
               "topLine": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -204,27 +202,13 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": [
-                {
-                  "id": "3c68aab8-da2b-46c9-9a33-4318bed62426",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Tampering",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": true,
-                  "number": 10,
-                  "score": ""
-                }
-              ]
+              "threats": []
             }
           },
           {
@@ -681,6 +665,9 @@
               "threats": []
             },
             "id": "cb32ec84-d708-448e-b1a6-84b46229f9c4",
+            "labels": [
+              "Backend Calls"
+            ],
             "source": {
               "cell": "4c888229-b108-4e1d-8f5b-cd7ffc350c82"
             },
@@ -696,9 +683,6 @@
                 "x": 710,
                 "y": 210
               }
-            ],
-            "labels": [
-              "Backend Calls"
             ]
           },
           {
@@ -733,6 +717,9 @@
               "threats": []
             },
             "id": "147bc210-4a1c-46ed-8049-18214f2304ca",
+            "labels": [
+              "Backend Responses"
+            ],
             "source": {
               "cell": "cf3f201a-ee17-4e73-acdd-1936d9ba5a32"
             },
@@ -744,9 +731,6 @@
                 "x": 640,
                 "y": 310
               }
-            ],
-            "labels": [
-              "Backend Responses"
             ]
           },
           {
@@ -870,15 +854,15 @@
               "threats": []
             },
             "id": "e6120cd8-7a68-48fb-a6bd-d415a55e5147",
+            "labels": [
+              "HTTPS REQ/RES"
+            ],
             "source": {
               "cell": "4f511f4a-5332-4d22-ba70-b74dbc552886"
             },
             "target": {
               "cell": "4c888229-b108-4e1d-8f5b-cd7ffc350c82"
-            },
-            "labels": [
-              "HTTPS REQ/RES"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -977,6 +961,9 @@
               ]
             },
             "id": "56ba0f48-8799-4860-9741-0078311aa893",
+            "labels": [
+              "HTTPS REQ/RES"
+            ],
             "source": {
               "cell": "84ec0d57-418c-4731-ac13-5a29bc9a2acc"
             },
@@ -988,9 +975,6 @@
                 "x": 370,
                 "y": 170
               }
-            ],
-            "labels": [
-              "HTTPS REQ/RES"
             ]
           },
           {
@@ -1232,6 +1216,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 17,
             "id": "4f511f4a-5332-4d22-ba70-b74dbc552886",
             "data": {
               "type": "tm.Actor",
@@ -1242,8 +1227,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 17
+            }
           }
         ],
         "description": "Vulnerabilidades"
