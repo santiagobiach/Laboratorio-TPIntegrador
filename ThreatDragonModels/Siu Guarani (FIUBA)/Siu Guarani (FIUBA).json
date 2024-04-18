@@ -1088,11 +1088,13 @@
                 "text": "Base de datos"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1106,7 +1108,7 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
@@ -1116,7 +1118,7 @@
                 {
                   "id": "ac6dcf99-a1cf-4bb7-bf9d-ad48e6bebb73",
                   "title": "SQL Injection",
-                  "status": "NotApplicable",
+                  "status": "Open",
                   "severity": "Medium",
                   "type": "Tampering",
                   "description": "En caso de no sanitizar el INPUT de los usuarios un atacante podría ejecutar queries directamente dentro de la base de datos como si fuera un usuario privilegiado.",
@@ -1129,7 +1131,7 @@
                 {
                   "id": "8abd3c1f-18a3-4880-b413-cfebb31cbc5a",
                   "title": "Acceso no Autorizado",
-                  "status": "NotApplicable",
+                  "status": "Open",
                   "severity": "Medium",
                   "type": "Information disclosure",
                   "description": "Un atacante podría hacer una query directamente a la BD ",
