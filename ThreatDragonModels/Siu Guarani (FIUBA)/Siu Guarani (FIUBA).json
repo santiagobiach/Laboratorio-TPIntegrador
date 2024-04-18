@@ -102,19 +102,6 @@
                   "new": false,
                   "number": 9,
                   "score": ""
-                },
-                {
-                  "id": "6a681eec-d66e-4c17-82ab-2174e5828b79",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": true,
-                  "number": 14,
-                  "score": ""
                 }
               ]
             }
@@ -165,6 +152,19 @@
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 13,
+                  "score": ""
+                },
+                {
+                  "id": "6c324988-9538-4b25-9c06-a4e1e59c0cce",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 16,
                   "score": ""
                 }
               ]
@@ -1235,6 +1235,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "Santiago Biach",
-    "threatTop": 15
+    "threatTop": 16
   }
 }
